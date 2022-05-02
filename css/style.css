@@ -1,0 +1,137 @@
+
+/*
+.primeraimagen, .carousel, .card-group{margin-top: 40px ;}
+
+.formulario{margin-top: 100px ;}
+*/
+
+.div-izq{
+
+    background-image: url(../images/honolulu.jpg);
+   /* background-size: cover;*/
+    background-size:cover;
+    background-position:center;
+    height: 380px;
+
+}
+.div-der{
+    background-color:rgb(52, 57, 63);
+    background-size: cover;
+    height: 380px;
+
+    /*font-size: 12px;*/
+    /*text-transform: uppercase;*/
+    color: white;
+    /*font-weight: 600;*/
+}
+
+.CaC{
+    font-family: Arial;
+    color: white;
+}
+
+
+
+
+
+.section {
+    position: relative;
+    height: 100vh;
+}
+
+.section .section-center {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+
+
+
+
+
+
+#booking {
+    font-family: 'Montserrat', sans-serif;
+    /*background-image: url('https://i.imgur.com/ZaRYfYW.jpg');*/
+    background-image: url(../images/ba1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#booking::before {
+    background:rgba(5, 5, 5, 0.6);
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.font-bold {
+    font-weight: bold;
+  }
+
+
+/* Solucion a botones extra small en bootstrap posterior a 3
+   Ref:  https://stackoverflow.com/questions/33911049/btn-xs-no-longer-a-valid-option-in-bootstrap-4
+*/
+
+.btn-group-xs > .btn, .btn-xs {
+   padding: .25rem .4rem;
+   font-size: .875rem;
+   line-height: .5;
+   border-radius: .2rem;
+}
+
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex: 1 0 100%;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+    margin-left: calc(var(--bs-gutter-x)/ -2);
+    justify-content: flex-end;
+}
+
+.booking-cta {
+
+    /*
+    margin-top: 80px;
+    margin-bottom: 30px;
+    */
+    text-align: right;
+}
+
+.booking-cta h1 {
+    font-size: 32px;
+    /*text-transform: uppercase;*/
+    color: white;
+    font-weight: 600;
+}
+
+.booking-cta p {
+    font-size: 14px;
+    color: white;
+}
+
+.orador, .anotate {
+    text-align-last: center;
+}
+  
+
+
+
+/*
+
+.primerafoto{
+    background-image: url(https://agenciadeaprendizaje.bue.edu.ar/wp-content/uploads/2021/04/Taller-de-orientacion-laboral-500x350.jpg);
+    background-size: cover;
+}
+*/
